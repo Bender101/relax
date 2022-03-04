@@ -37,7 +37,7 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500);
   res.render('error');
 });
-const PORT = process.env.PORT ?? 3000
+const PORT = process.env.PORT ?? 3001
 app.listen(PORT, () => console.log('S T A R T U E M'))
 
 module.exports = app;
